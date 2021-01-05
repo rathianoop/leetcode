@@ -1,9 +1,12 @@
+package problems;
+
 import java.util.*;
 
 public class PalindromeLinkedList_MyFirstPass
 {
   public static void main(String[] args)
   {
+
 
     List<Integer> linkedList = new LinkedList<Integer>();
     linkedList.add(1);
