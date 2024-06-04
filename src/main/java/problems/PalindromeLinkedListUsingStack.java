@@ -1,6 +1,6 @@
 package problems;
 
-import DataStructures.LinkedList.Node;
+import datastructures.linkedlist.Node;
 
 import java.util.*;
 

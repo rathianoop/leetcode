@@ -1,7 +1,4 @@
-package DataStructures.Stack;
-
-import java.util.HashMap;
-import java.util.Map;
+package datastructures.stack;
 
 public class StackRunner
 {

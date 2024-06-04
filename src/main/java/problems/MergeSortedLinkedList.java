@@ -1,10 +1,8 @@
 package problems;
 
-import DataStructures.LinkedList.Node;
 import problems.helper.ListNode;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class MergeSortedLinkedList
 {

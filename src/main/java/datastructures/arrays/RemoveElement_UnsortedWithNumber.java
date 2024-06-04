@@ -1,4 +1,4 @@
-package DataStructures.Arrays;
+package datastructures.arrays;
 
 public class RemoveElement_UnsortedWithNumber
 {
