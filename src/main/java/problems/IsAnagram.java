@@ -1,6 +1,6 @@
 package problems;
 
-public class IsAnargam {
+public class IsAnagram {
 
     public static boolean isAnargam(String s1, String s2){
 
