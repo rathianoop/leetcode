@@ -1,6 +1,5 @@
 package problems;
 
-import sun.font.CreatedFontTracker;
 
 //This is a classic example of Sliding window problem.
 public class LongestConinuousIncreasingSequence__674
