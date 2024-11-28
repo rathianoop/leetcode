@@ -8,10 +8,11 @@ public class LC55_JumpGame {
     }
 
     public static boolean canJump(int [] nums){
-        int lastIndex = nums.length-1;
 
-        for(int i = 1; i < lastIndex; i++){
-            if(nums[i] == lastIndex-i) {
+        for(int i = 0; i < nums.length; i++){
+            System.out.println("here");
+            i += nums[i];
+            if(i == nums.length-1){
                 return true;
             }
         }

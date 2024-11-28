@@ -7,6 +7,13 @@ public class TestingClass
 {
   public static void main(String[] args)
   {
+    int pointer = 0;
+
+    System.out.println(++pointer);
+    System.out.println(pointer);
+
+    System.out.println(pointer++);
+    System.out.println(pointer);
 
 
   }

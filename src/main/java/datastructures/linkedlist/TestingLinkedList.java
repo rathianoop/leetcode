@@ -5,6 +5,14 @@ public class TestingLinkedList
   public static void main(String[] args)
   {
 
+    Node node_TestReference = LinkedListInitializer.populateLinkedList_normal();
+
+    Node temp = node_TestReference;
+    temp = temp.next;
+    System.out.println(temp == node_TestReference);
+    temp.data = 5000;
+
+
     Node node = LinkedListInitializer.populateLinkedList_normal();
     Node reversedNode  = getFinalNode(node);
     while(reversedNode != null)
